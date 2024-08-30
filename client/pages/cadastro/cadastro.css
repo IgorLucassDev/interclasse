@@ -9,8 +9,7 @@
 .login-form{
     padding: 30px;
     border-radius: 20px;
-    width: 350px;
-    height: 320px;
+    width: 400px;
     background-color: #1E1E1E;
     display: flex;
     flex-direction: column;
@@ -64,4 +63,20 @@
     font-size: 0.8em;
     margin-top: 1em;
     text-align: right;
+}
+
+.tipo{
+    color: #949494;
+    font-size: 0.8em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

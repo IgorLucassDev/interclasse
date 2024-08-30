@@ -1,7 +1,8 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 10px 12px;
+    padding: 15px 20px;
+    color: #d5d5d5;
 }
 
 .navbar > .list{
@@ -11,6 +12,7 @@
 }
 
 .navbar > .list > li > a{
+    font-size: .8em;
     text-decoration: none;
     color: #d5d5d5;
 }

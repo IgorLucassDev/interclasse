@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./css/cadastro.css"">
+    <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="stylesheet" href="./css/global.css?v=1.0">
     <!-- Navbar CSS link -->
     <link rel="stylesheet" href="./css/navbar.css?v=1.0">
@@ -24,16 +24,15 @@
     </nav>
 
 <!-- End Navbar -->
-
     <div class="container">
-        <form action="" method="post" class="login-form" >
+        <form method="post" class="login-form" action="../server/validation_register.php">
             <div class="user-input poppins-extrabold">
                 <label for="email">Email*</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu email" required>
             </div>
             <div class="user-input poppins-extrabold">
-                <label for="password">Senha*</label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                <label for="senha">Senha*</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
             </div>
             <div class="user-input poppins-extrabold">
                 <label for="nome">Nome*</label>

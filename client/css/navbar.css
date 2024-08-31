@@ -12,7 +12,11 @@
 }
 
 .navbar > .list > li > a{
-    font-size: .8em;
+    font-size: 5em;
     text-decoration: none;
     color: #d5d5d5;
+}
+
+.logoIMG{
+    background-color: red;
 }

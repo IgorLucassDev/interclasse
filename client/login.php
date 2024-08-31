@@ -4,14 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="login.css?v=1.0"">
-    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="./css/login.css?v=1.0"">
+    <link rel="stylesheet" href="./css/global.css">
     <!-- Navbar CSS link -->
-    <link rel="stylesheet" href="../../components/navbar/navbar.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
 <body>
     <!-- Navbar -->
-    <?php include '../../components/navbar/navbar.php'; ?> 
+
+    <nav class="navbar">
+            <h1 class="poppins-bold">LOGO</h1>
+            <ul class="list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="./cadastro.php">Cadastro</a></li>
+            </ul>
+    </nav>
+
+<!-- End Navbar -->
 
     <div class="container">
         <form action="" method="post" class="login-form">

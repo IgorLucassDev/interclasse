@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="./css/cadastro.css?v=1.0"">
-    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/cadastro.css"">
+    <link rel="stylesheet" href="./css/global.css?v=1.0">
     <!-- Navbar CSS link -->
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/navbar.css?v=1.0">
 </head>
 <body>
     <!-- Navbar -->
 
     <nav class="navbar">
-            <div class="logo">
-
+            <div class="logo-container">
+                <img class="logo" src="./assets/logo.png" alt="logo">
             </div>
             <ul class="list">
                 <li><a href="#">Inicio</a></li>
@@ -26,38 +26,35 @@
 <!-- End Navbar -->
 
     <div class="container">
-        <form action="" method="post" class="login-form">
+        <form action="" method="post" class="login-form>
             <div class="user-input poppins-extrabold">
-                <label for="email">Email</label>
+                <label for="email">Email*</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu email" required>
             </div>
             <div class="user-input poppins-extrabold">
-                <label for="password">Senha</label>
+                <label for="password">Senha*</label>
                 <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
             </div>
             <div class="user-input poppins-extrabold">
-                <label for="nome">Nome</label>
+                <label for="nome">Nome*</label>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
             </div>
             <div class="user-input poppins-extrabold">
                 <label for="turma">Turma</label>
-                <input type="number" id="turma" name="turma" placeholder="Ex: 201" required>
+                <input type="number" id="turma" name="turma" placeholder="Ex: 201">
             </div>
             <div class="tipo poppins-extrabold">
                 <div class="option">
                     <label for="tipo">Aluno</label>
-                    <input type="radio" name="tipo" id="tipo">
+                    <input type="radio" name="tipo" id="tipo" value="aluno">
 
                 </div>
                 <div class="option">
                     <label for="tipo">Professor</label>
-                    <input type="radio" name="tipo" id="tipo">
+                    <input type="radio" name="tipo" id="tipo" value="professor">
 
                 </div>
             </div>
-
-
-            
             <div class="button-container">
                 <button type="submit">Registrar</button>
             </div>

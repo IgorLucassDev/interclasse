@@ -5,20 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/login.css?v=1.0"">
-    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/global.css?v=1.0">
     <!-- Navbar CSS link -->
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/navbar.css?v=1.0">
 </head>
 <body>
     <!-- Navbar -->
 
     <nav class="navbar">
-            <h1 class="poppins-bold">LOGO</h1>
-            <ul class="list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="./cadastro.php">Cadastro</a></li>
-            </ul>
+        <div class="logo-container">
+            <img class="logo" src="./assets/logo.png" alt="logo">
+        </div>
+        <ul class="list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="./cadastro.php">Cadastro</a></li>
+        </ul>
     </nav>
 
 <!-- End Navbar -->
@@ -33,7 +35,7 @@
                 <label for="password">Senha</label>
                 <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
             </div>
-            <a class="cad" href="#">Não tenho uma conta</a>
+            <a class="cad" href="./cadastro.php">Não tenho uma conta</a>
             <div class="button-container">
                 <button type="submit">Entrar</button>
             </div>

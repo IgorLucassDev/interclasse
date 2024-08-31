@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($senha, $row['senha'])) {
             $_SESSION['usuario_id'] = $row['id'];
-            header("Location: /Interclasse/client/app.php");
+            header("Location: ../client/app.php");
             exit();
         } else {
             echo "A senha não está correta";

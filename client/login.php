@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
             <img class="logo" src="./assets/logo.png" alt="logo">
         </div>
         <ul class="list">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="app.php">Inicio</a></li>
             <li><a href="#">Login</a></li>
             <li><a href="./cadastro.php">Cadastro</a></li>
         </ul>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="./css/cadastro.css">
     <link rel="stylesheet" href="./css/global.css?v=1.0">
     <!-- Navbar CSS link -->
@@ -17,7 +17,7 @@
                 <img class="logo" src="./assets/logo.png" alt="logo">
             </div>
             <ul class="list">
-                <li><a href="#">Inicio</a></li>
+                <li><a href="app.php">Inicio</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="#">Cadastro</a></li>
             </ul>

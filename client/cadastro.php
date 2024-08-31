@@ -26,7 +26,7 @@
 <!-- End Navbar -->
 
     <div class="container">
-        <form action="" method="post" class="login-form>
+        <form action="" method="post" class="login-form" >
             <div class="user-input poppins-extrabold">
                 <label for="email">Email*</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu email" required>

@@ -40,3 +40,9 @@
 .esporte_img{
     width: 100px;
 }
+
+@media screen and (max-width: 872px){
+    .card-container{
+        justify-content: center;
+    }
+}

@@ -33,20 +33,7 @@ $quantidade = $row['quantidade'];
     <link rel="stylesheet" href="./css/navbar.css?v=1.0">
 </head>
 <body>
-    <!-- Navbar -->
-
-    <nav class="navbar">
-        <div class="logo-container">
-            <img class="logo" src="./assets/logo.png" alt="logo">
-        </div>
-        <ul class="list">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="./cadastro.php">Cadastro</a></li>
-        </ul>
-    </nav>
-
-    <!-- End Navbar -->
+    <?php include 'navbar.php';?>
 
     <div class="container">
         <h2>Inscrição para: <?php echo $name;?></h2>

@@ -1,7 +1,6 @@
 <?php 
 // Imports
 include 'db_conn.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -12,25 +11,12 @@ include 'db_conn.php';
     <title>Dashboard</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/index.css?v=1.0">
-    <!-- Navbar CSS link -->
-    <link rel="stylesheet" href="./css/navbar.css?v=1.0">
+    
 
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo-container">
-            <img class="logo" src="./assets/logo.png" alt="logo">
-        </div>
-        <ul class="list">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="login.php">Login</a></li>
-            <li><a href="./cadastro.php">Cadastro</a></li>
-            <li><a href="./perfil.php"></a></li>
-        </ul>
-    </nav>
-    <!-- End Navbar -->
-
+    <?php include 'navbar.php';?>
+    
     <div class="container">
 
         <div class="atividades">
@@ -58,7 +44,6 @@ include 'db_conn.php';
                         echo '</form>';
                         echo '</div>';
                     }
-                
                 ?>
             </div>
         </div>

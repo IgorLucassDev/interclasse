@@ -24,3 +24,40 @@
 .logo{
     width: 32px;
 }
+
+.close-btn{
+    width: 32px;
+    display: none;
+}
+
+.menu{
+    width: 32px;
+}
+
+
+
+@media screen and (max-width: 564px){
+
+    .close-btn{
+        display: block;
+    }
+
+    
+    .navbar > .list {
+        transform: translateX(100%);
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding: 20px;
+        background-color: black;
+        position: fixed;
+        flex-direction: column;
+        gap: 1.5em;
+        transition: transform 0.3s ease;
+    }
+
+    .navbar > .list.active {
+        transform: translateX(0); /* Move o menu para a posição visível */
+    }
+}

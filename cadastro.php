@@ -17,7 +17,7 @@
                 <img class="logo" src="./assets/logo.png" alt="logo">
             </div>
             <ul class="list">
-                <li><a href="app.php">Inicio</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="#">Cadastro</a></li>
             </ul>
@@ -25,7 +25,7 @@
 
 <!-- End Navbar -->
     <div class="container">
-        <form method="post" class="login-form" action="../server/validation_register.php">
+        <form method="post" class="login-form" action="./server/validation_register.php">
             <div class="user-input poppins-extrabold">
                 <label for="email">Email*</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu email" required>

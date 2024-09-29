@@ -1,0 +1,42 @@
+.container{
+    padding: 30px;
+    color: #DDDDDD;
+}
+
+.card-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    background-color: #000000;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 1em;
+    box-shadow: 4px 4px 10px #00000027;
+    justify-content: space-between;
+}
+
+.card > .info{
+    color: #C2C2C2;
+    font-size: .8em;
+}
+
+.card > form > button{
+    background-color: #DCDCDC;
+    color: #2A2A2A;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.esporte_img{
+    width: 100px;
+}
